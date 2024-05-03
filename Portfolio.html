@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Online Portfolio</title>
+  <style>
+  	/* css codes */
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+      background-color: skyblue;
+    }
+    #header {
+      margin-bottom: 20px;
+    }
+    #content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    #search-bar {
+      display: flex;
+      margin-bottom: 20px;
+    }
+    #search-bar input[type="text"] {
+      padding: 5px;
+      border: 1px solid;
+      border-radius: 5px;
+      margin-right: 10px;
+    }
+    #links {
+      display: flex;
+    }
+    #links a {
+      margin: 0 10px;
+    }
+  </style>
+</head>
+<body>
+	<!-- body and scripts -->
+  <div id="header">
+    <h1>MY ONLINE PORTFOLIO</h1>
+  </div>
+  <div id="content">
+  	<!-- search bar -->
+    <div id="search-bar">
+      <input type="text" placeholder="Enter a keyword" />
+      <button onclick="search()">Search</button>
+    </div>
+    <div id="links">
+      <a href="SA_ICT9Ruby_Q1Project_Yamson_Davin.html">First Quarter</a>
+      <a href="ICT9Ruby_Q2Project_Yamson_Davin.html">Second Quarter</a>
+    </div>
+  </div>
+  <script>
+    function search() {
+      alert("Searching for the keyword...");
+    }
+  </script>
+</body>
+</html>
